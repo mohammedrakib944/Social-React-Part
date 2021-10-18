@@ -1,0 +1,76 @@
+.sidebar {
+  flex: 3;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  color: var(--fonts-color);
+  position: sticky;
+  top: 50px;
+}
+.sidebar::-webkit-scrollbar {
+  width: 5px;
+}
+.sidebar::-webkit-scrollbar-track {
+  background-color: #1b1b1b;
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: rgb(65, 65, 65);
+  border-radius: 5px;
+}
+.sidebarWrapper {
+  padding: 20px;
+}
+.sidebarList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.sidebarListItem {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px 10px 5px;
+  /* margin-bottom: 5px; */
+  cursor: pointer;
+  transition: 0.2s;
+}
+.sidebarListItem:hover {
+  background: var(--card-bg);
+  border-radius: 7px;
+}
+.ownerImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 1.5px solid var(--primary-color);
+}
+.sidebarIcon {
+  margin-right: 10px;
+  color: var(--primary-color);
+}
+.sidebarListItemText,
+.progileLinkSidebarListItem {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--fonts-color);
+  display: flex;
+  align-items: center;
+}
+.sidebarButton {
+  width: 150px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+  background: #312f2f;
+  color: var(--fonts-color);
+  cursor: pointer;
+  margin-top: 10px;
+}
+.sidebarHr {
+  margin: 20px 0px;
+}
+.sidebarFriendList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}

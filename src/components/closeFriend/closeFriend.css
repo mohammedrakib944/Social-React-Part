@@ -1,0 +1,26 @@
+.sidebarFriend {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+.sidebarFriend:hover {
+  background: var(--card-bg);
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.sidebarFriendImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+  border: 1.5px solid var(--fonts-color);
+}
+.SidebarFriendName {
+  font-size: 15px;
+  font-weight: 600;
+}

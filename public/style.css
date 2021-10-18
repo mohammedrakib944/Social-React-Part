@@ -1,0 +1,32 @@
+:root {
+  --background: #18191a;
+  --primary-color: #1ee9ab;
+  --fonts-color: #a7a7a7;
+  --white: rgb(34, 33, 33);
+  --green: rgb(90, 211, 90);
+  --card-bg: #242526;
+  /* --shadow: 0px 2px 16px #101010; */
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  /* color: var(--fonts-color); */
+}
+a {
+  text-decoration: none !important;
+}
+body,
+html {
+  background: var(--background);
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #1b1b1b;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(99, 96, 96);
+  border-radius: 5px;
+}
